@@ -1,0 +1,61 @@
+@import "bootstrap";
+
+
+
+body {
+  /* font: 14px/1.231 "", sans-serif !important; */
+  background-color: #B2D0B4;
+  color: #fff;
+  font-weight: 100;
+  font-family: "Poiret One", Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	/* font-weight: 100 !important; */
+	text-align: center;
+	font-size: 56px;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-family: "Poiret One", Arial, Helvetica, sans-serif;
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	color: #3498DB;
+}
+a:hover {
+	color: #2980B9;
+	text-decoration: none;
+}
+
+.lead {
+	font-weight: 100;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+.margin-top-40 {
+	margin-top: 40px;
+}
+.margin-top-100 {
+	margin-top: 100px;
+}
+@media screen and(max-width: 981px) {
+  body {
+    padding-top: 0px;
+  }
+  h1 {
+	  font-size: 90px;
+	  font-weight: 300;
+  }
+  .lead {
+	  font-weight: 300;
+	  font-size: 50px;
+  }
+}

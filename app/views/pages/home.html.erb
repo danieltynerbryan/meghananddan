@@ -1,4 +1,32 @@
-<h1 class="margin-top-100">Meghan Evans and Daniel Silberman</h1>
-<p class="lead">Wedding Extravaganza</p>
-<p class="lead">June 28, 2014</p>
-<p class="lead">Rocky Neck State Park, Niantic, CT</p>
+<h1 class="margin-top-100" style="margin-top:20px;">Meghan Evans and Daniel Silberman</h1>
+
+<div class="row margin-top-20">
+	
+	<div class="col-md-4">
+		<p class="lead" style="padding-bottom:0">Wedding Extravaganza</p>
+		<p class="lead" style="margin-bottom:0">June 28th, 2014</p>
+		<p class="lead" style="margin-bottom:0">Rockyneck State Park</p>
+		<p class="lead" style="margin-bottom:0">Niantic, CT</p>
+		<p class="lead" style="margin-bottom:0">5pm</p>
+	</div>
+
+	<div class="col-md-4">
+		<%= image_tag("5.png", :class => "img-rounded ", :style => "height") %>
+	</div>
+	
+	<div class="col-md-3">
+		<div class="row">
+			<div class="col-md-9 col-md-offset-3">
+				<%= link_to('Gallery', gallery_path, :class => 'btn btn-transparent btn-lg width-200') %>
+			</div>
+			<div class="col-md-9 col-md-offset-3 margin-top-20">
+				<%= link_to('Venue', map_path, :class => 'btn btn-transparent btn-lg width-200') %>
+			</div>
+			<div class="col-md-9 col-md-offset-3  margin-top-20">
+				<%= link_to('Wedding Party', weddingparty_path, :class => 'btn btn-transparent btn-lg width-200') %>
+			</div>
+		</div>
+	</div>
+	
+		
+</div>

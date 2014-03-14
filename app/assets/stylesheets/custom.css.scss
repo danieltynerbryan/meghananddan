@@ -4,8 +4,8 @@
 
 body {
   /* font: 14px/1.231 "", sans-serif !important; */
-  background-color: rgba(180,209,198,0);
-  color: #B2D0C4;
+  background-color: #abc7b9/* rgba(180,209,198,0) */;
+  color: #fff;
   font-weight: 100;
   font-family: "Poiret One", Arial, Helvetica, sans-serif;
 }
@@ -23,7 +23,39 @@ h1 {
 p {
 	text-align: center;
 }
+.poiret {
+	font-family: "Poiret One", Arial, Helvetica, sans-serif;
+	font-size: 42px;
+}
+.shadows-into-light {
+	font-family: "Shadows Into Light Two", Arial, Helvetica, sans-serif;
+	font-size: 36px;
+	text-transform: uppercase;
+}
+.neucha {
+	font-family: "Neucha", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+.amatic-sc {
+	font-family: "Amatic SC", Arial, Helvetica, sans-serif;
+	font-size: 56px !important;
+	text-transform: uppercase;
+}
+.londrina-outline {
+	font-family: "Londrina Outline", Arial, Helvetica, sans-serif;
+	font-size: 72px;
+	text-transform: uppercase;
 
+    transform:scale(1,1.5); /* W3C */
+    -webkit-transform:scale(1,1.5); /* Safari and Chrome */
+    -moz-transform:scale(1,1.5); /* Firefox */
+    -ms-transform:scale(1,1.5); /* IE 9 */
+    -o-transform:scale(1,1.5); /* Opera */
+}
+.font-size-36 {
+	font-size: 36px;
+}
 a {
 	color: #3498DB;
 }
@@ -37,7 +69,9 @@ a:hover {
 	font-size: 36px;
 	text-transform: uppercase;
 }
-
+.margin-top-10 {
+	margin-top: 10px;
+}
 .margin-top-20 {
 	margin-top: 20px;
 }
@@ -51,7 +85,8 @@ a:hover {
 	width: 200px;
 }
 .btn-transparent {
-	background-color: #B2D0C4;
+	background-color: #abc7b9;
+	/* background-image: image-url("border.png"); */
 	border-color: #fff !important;
 	text-transform: uppercase;
 	color: #fff
@@ -82,7 +117,7 @@ a:hover {
   }
 }
 .img-rounded {
-	border: 2px solid #B2D0C4;
+	/* border: 2px solid #abc7b9; */
 	width:100%;
 }
 .footer {

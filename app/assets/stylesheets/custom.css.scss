@@ -1,7 +1,5 @@
 @import "bootstrap";
 
-
-
 body {
   /* font: 14px/1.231 "", sans-serif !important; */
   background-color: #abc7b9/* rgba(180,209,198,0) */;
@@ -44,7 +42,7 @@ p {
 }
 .londrina-outline {
 	font-family: "Londrina Outline", Arial, Helvetica, sans-serif;
-	font-size: 72px;
+	font-size: 86px;
 	text-transform: uppercase;
 
     transform:scale(1,1.5); /* W3C */
@@ -89,7 +87,7 @@ a:hover {
 	/* background-image: image-url("border.png"); */
 	border-color: #fff !important;
 	text-transform: uppercase;
-	color: #fff
+	color: #fff;
 }
 .btn-transparent:hover {
 	background-color: #92b4a7;

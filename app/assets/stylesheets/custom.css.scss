@@ -202,3 +202,16 @@ a:hover {
 .here {
 	color: #fff !important;
 }
+
+body.home {
+	background-image: url('/assets/home.png');
+	background-repeat:no-repeat center;
+}
+body.venue {
+	background-image: url('/assets/rocky_neck_1.jpg');
+	background-repeat:no-repeat center;
+}
+body.weddingparty {
+	background-image: url('/assets/balloons_sky.jpg');
+	background-repeat:no-repeat center;
+}

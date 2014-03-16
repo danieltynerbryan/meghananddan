@@ -19,8 +19,8 @@ penelope_anne-webfont/index.woff: penelope_anne-webfont-221b371065c34443e170015a
 5/index.png: 5-ceec0c038f4efcc191ca4fbba9e62b96.png
 balloons.jpg: balloons-6516f806b774fbf4f278b51eb022fa42.jpg
 balloons/index.jpg: balloons-6516f806b774fbf4f278b51eb022fa42.jpg
-balloons_sky.jpg: balloons_sky-cabb25b1647588a1e9e8b8e0f022783f.jpg
-balloons_sky/index.jpg: balloons_sky-cabb25b1647588a1e9e8b8e0f022783f.jpg
+balloons_sky.jpg: balloons_sky-619c01242c9106df73d075b9f2090885.jpg
+balloons_sky/index.jpg: balloons_sky-619c01242c9106df73d075b9f2090885.jpg
 banner_white.png: banner_white-18510e2f38b4e2ae4fbab62792977300.png
 banner_white/index.png: banner_white-18510e2f38b4e2ae4fbab62792977300.png
 becky.jpg: becky-214115d1993f3dce9ea976d12239f17a.jpg
@@ -29,8 +29,12 @@ border.png: border-88215e2b44d110a4c16ac7baa4d07b97.png
 border/index.png: border-88215e2b44d110a4c16ac7baa4d07b97.png
 border_flipped.png: border_flipped-693bf650fe832d2de9af0bf33f3b8998.png
 border_flipped/index.png: border_flipped-693bf650fe832d2de9af0bf33f3b8998.png
+dark_balloons.jpg: dark_balloons-90bdae32bb4f6fb8b72dc0c6749a4b71.jpg
+dark_balloons/index.jpg: dark_balloons-90bdae32bb4f6fb8b72dc0c6749a4b71.jpg
 dilyan.jpg: dilyan-95c493b1821a1a904b68195ba9b74410.jpg
 dilyan/index.jpg: dilyan-95c493b1821a1a904b68195ba9b74410.jpg
+home.png: home-cb9743f623bce08159cbbaf68df0cc32.png
+home/index.png: home-cb9743f623bce08159cbbaf68df0cc32.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rocky_neck_1.jpg: rocky_neck_1-e674a1c219f2146577e983c24e51521d.jpg
@@ -39,8 +43,8 @@ rocky_neck_2.jpg: rocky_neck_2-77a84b54632284e542ba35e6ae39fb03.jpg
 rocky_neck_2/index.jpg: rocky_neck_2-77a84b54632284e542ba35e6ae39fb03.jpg
 application.js: application-cd315e2503acbfc53b6e8d6938890fa1.js
 application/index.js: application-cd315e2503acbfc53b6e8d6938890fa1.js
-application.css: application-be1dd7e9aebb04be9748210d46d250c6.css
-application/index.css: application-be1dd7e9aebb04be9748210d46d250c6.css
+application.css: application-e5dc9c4ac3c70e289b7fa42874aa8832.css
+application/index.css: application-e5dc9c4ac3c70e289b7fa42874aa8832.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 bootstrap/glyphicons-halflings-regular.eot: bootstrap/glyphicons-halflings-regular-e76f5a754ccf64843a118a8706df3f8c.eot

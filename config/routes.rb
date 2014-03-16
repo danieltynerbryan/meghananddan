@@ -3,5 +3,5 @@ Meghananddan::Application.routes.draw do
   root :to => 'pages#home'
   match '/gallery',   to: 'pages#gallery'
   match '/weddingparty',   to: 'pages#weddingparty'
-  match '/map',   to: 'pages#map'
+  match '/venue',   to: 'pages#venue'
 end

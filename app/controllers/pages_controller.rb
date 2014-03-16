@@ -12,7 +12,7 @@ class PagesController < ApplicationController
   def weddingparty
   end
   
-  def map
+  def venue
   end
   
   

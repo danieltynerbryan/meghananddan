@@ -6,6 +6,7 @@ body {
   color: #fff;
   font-weight: 100;
   font-family: "Poiret One", Arial, Helvetica, sans-serif;
+  background-image: image-url("3.png");
 }
 
 h1 {
@@ -37,12 +38,12 @@ p {
 }
 .amatic-sc {
 	font-family: "Amatic SC", Arial, Helvetica, sans-serif;
-	font-size: 56px !important;
+	font-size: 48px !important;
 	text-transform: uppercase;
 }
 .londrina-outline {
 	font-family: "Londrina Outline", Arial, Helvetica, sans-serif;
-	font-size: 86px;
+	font-size: 80px;
 	text-transform: uppercase;
 
     transform:scale(1,1.5); /* W3C */
@@ -53,6 +54,9 @@ p {
 }
 .font-size-36 {
 	font-size: 36px;
+}
+.font-size-24 {
+	font-size: 24px;
 }
 a {
 	color: #3498DB;
@@ -120,4 +124,62 @@ a:hover {
 }
 .footer {
 	height: 60px;
+}
+.text-overlay {
+	margin-top: -80px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+}
+.center {
+	text-align: center;
+}
+
+.link-block {
+	display: inline-block !important;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+
+.info-box-overlay {
+	position: absolute;
+	top: 0;
+	right: 50px;
+	height: 100%;
+	width: 320px;
+	background-color: #abc7b9;
+	opacity: .85;
+}
+.info-box-overlay-inner {
+	padding: 20px;
+	padding-top: 0;
+	div {
+		text-align: left;
+	}
+}
+.info-box-links {
+	position: absolute;
+	top: 20px;
+	width: 100%;
+	padding:20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #333;
+	opacity: .8;
+	color: #fff;
+	font-size: 24px;
+	a {
+		text-transform: uppercase;
+		font-size: 24px;
+		color: #fff44f;
+	}
+}
+.tall {
+	transform:scale(1,1.5); /* W3C */
+    -webkit-transform:scale(1,1.5); /* Safari and Chrome */
+    -moz-transform:scale(1,1.5); /* Firefox */
+    -ms-transform:scale(1,1.5); /* IE 9 */
+    -o-transform:scale(1,1.5); /* Opera */
 }

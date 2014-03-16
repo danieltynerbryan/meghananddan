@@ -1,24 +1,21 @@
-<%= image_tag("border.png", :class => "", :style => "width:33%") %><%= image_tag("border_flipped.png", :class => "", :style => "width:33%") %><%= image_tag("border.png", :class => "", :style => "width:34%") %>
-
-<p class="londrina-outline"  style="margin-bottom:0px;">Meghan <span class="neucha">and</span> Daniel</p>
-
-<p class="neucha margin-top-20 font-size-36">June 28th, 2014</p>
-<p class="neucha margin-top-10 font-size-36"><%= @days_to_go %> days to go</p>
-
-<div class="row" style="display:none;">
-	<div class="col-md-4 col-md-offset-4">
-		<p class="neucha pull-left" style="margin-left:50px">Evans</p>
-		<p class="neucha pull-right" style="margin-right:20px">Silberman</p>
-	</div>
+<div class="info-box-links">
+	<a class="" href="#">Venue</a> |
+	<a class="" href="#">Gallery</a> |
+	<a class="" href="#">Wedding Party</a> |
+	<a class="" href="#">Registry</a>
 </div>
 
-<p class="amatic-sc" style="margin-bottom:0">Rockyneck State Park</p>
-<p class="amatic-sc">Niantic, CT</p>
-
-<div class="row">
-	<div class="col-md-6 col-md-offset-3">
-		<%= link_to('Venue', map_path, :class => 'btn btn-transparent btn-lg width-200') %>
-		<%= link_to('Gallery', gallery_path, :class => 'btn btn-transparent btn-lg width-200') %>
-		<%= link_to('Wedding Party', weddingparty_path, :class => 'btn btn-transparent btn-lg width-200') %>
+<div class="info-box-overlay">
+	<%= image_tag("border.png", :class => "", :style => "width:100%") %>
+	<div class="info-box-overlay-inner">
+		<div class="londrina-outline">Meghan</div>
+		<div class="neucha" style="font-size:23px; margin-top:-10px;">and</div>
+		<div class="londrina-outline" style="margin-top:-15px;">Daniel</div>
+		<div class="neucha tall margin-top-20" style="font-size:42px;">June 28th, 2014</div>
+		<div class="uppercase font-size-24 center" style="color:#fff44f; margin-top:-10px;"><%= @days_to_go %> days to go</div>
+		<div class="amatic-sc margin-top-20">Rockyneck State Park</div>
+		<div class="amatic-sc" style="margin-top:-10px;">Niantic, CT</div>
 	</div>
+	<%= image_tag("border_flipped.png", :class => "", :style => "width:100%") %>
 </div>
+

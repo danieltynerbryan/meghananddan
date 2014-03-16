@@ -11,12 +11,14 @@ penelope_anne-webfont/index.woff: penelope_anne-webfont-221b371065c34443e170015a
 1/index.JPG: 1-0fd4fa29868d42a95d3f58e127059b28.JPG
 2.JPG: 2-48018186e98111e45b9954ffa96e899e.JPG
 2/index.JPG: 2-48018186e98111e45b9954ffa96e899e.JPG
-3.png: 3-6fb8bdad4810ee1c7b66a0f631ecf3aa.png
-3/index.png: 3-6fb8bdad4810ee1c7b66a0f631ecf3aa.png
+3.png: 3-2740867a69c657e3f519fe0c533cc9a9.png
+3/index.png: 3-2740867a69c657e3f519fe0c533cc9a9.png
 4.png: 4-9b81556b91d2ca467eece592e7eaf4e8.png
 4/index.png: 4-9b81556b91d2ca467eece592e7eaf4e8.png
 5.png: 5-ceec0c038f4efcc191ca4fbba9e62b96.png
 5/index.png: 5-ceec0c038f4efcc191ca4fbba9e62b96.png
+banner_white.png: banner_white-18510e2f38b4e2ae4fbab62792977300.png
+banner_white/index.png: banner_white-18510e2f38b4e2ae4fbab62792977300.png
 border.png: border-88215e2b44d110a4c16ac7baa4d07b97.png
 border/index.png: border-88215e2b44d110a4c16ac7baa4d07b97.png
 border_flipped.png: border_flipped-693bf650fe832d2de9af0bf33f3b8998.png
@@ -25,8 +27,8 @@ rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 application.js: application-cd315e2503acbfc53b6e8d6938890fa1.js
 application/index.js: application-cd315e2503acbfc53b6e8d6938890fa1.js
-application.css: application-f7e5b472b5504f6a77950386d45c60fd.css
-application/index.css: application-f7e5b472b5504f6a77950386d45c60fd.css
+application.css: application-e96d0db622cbe8c4ca0c5630c18d9d32.css
+application/index.css: application-e96d0db622cbe8c4ca0c5630c18d9d32.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 bootstrap/glyphicons-halflings-regular.eot: bootstrap/glyphicons-halflings-regular-e76f5a754ccf64843a118a8706df3f8c.eot

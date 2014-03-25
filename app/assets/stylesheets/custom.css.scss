@@ -33,6 +33,12 @@ p {
 	font-size: 24px;
 	text-transform: uppercase;
 }
+.font-size-16 {
+	font-size: 16px;
+}
+.helvetica-neue {
+	font-family: "HelveticaNeue", Arial, Helvetica, sans-serif;
+}
 .amatic-sc {
 	font-family: "Amatic SC", Arial, Helvetica, sans-serif;
 	font-size: 47px !important;
@@ -161,7 +167,7 @@ a:hover {
 	background-color: #abc7b9;
 	opacity: .85;
 	img {
-		opacity: 1;
+		opacity: 1 !important;
 	}
 }
 .info-box-overlay-inner {
@@ -170,6 +176,15 @@ a:hover {
 	div {
 		text-align: left;
 	}
+}
+.info-box-overlay-center {
+	position: fixed;
+	top: 100px;
+	background-color: #abc7b9;
+	opacity: .85;
+	left: 50px;
+	padding: 20px;
+	width: 810px;
 }
 .info-box-links {
 	position: fixed;
@@ -187,6 +202,14 @@ a:hover {
 		font-size: 24px;
 		color: #fff44f;
 	}
+}
+.hotel-name {
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: bold;
+}
+.hotel-name-large {
+	font-size: 22px;
 }
 .tall {
 	transform:scale(1,1.5); /* W3C */

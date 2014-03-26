@@ -133,6 +133,7 @@ a:hover {
 	  font-size: 50px;
   }
 }
+
 .img-rounded {
 	/* border: 2px solid #abc7b9; */
 	width:100%;
@@ -166,6 +167,7 @@ a:hover {
 	width: 320px;
 	background-color: #abc7b9;
 	opacity: .85;
+	z-index: 1001;
 	img {
 		opacity: 1 !important;
 	}
@@ -187,16 +189,16 @@ a:hover {
 	width: 810px;
 }
 .info-box-overlay-center-large {
-	background-color: #333;
-	opacity: .85;
 	padding: 20px;
 	margin-left: 40px;
 	margin-right: 40px;
-	margin-bottom: 40px;	
-	/* width: 1050px; */
+	margin-bottom: 40px;
+	opacity: 1;
+	background: rgba(51, 51, 51, 0.85);	
 }
 .info-box-links {
 	position: fixed;
+	z-index: 1000;
 	top: 20px;
 	width: 100%;
 	padding:20px;
@@ -236,7 +238,7 @@ a:hover {
 }
 
 body.home {
-	background-image: url('/assets/home.png');
+	background-image: url('/assets/home-1280.png');
 	background-repeat:no-repeat center;
 }
 body.venue {
@@ -244,6 +246,21 @@ body.venue {
 	background-repeat:no-repeat center;
 }
 body.weddingparty {
-	background-image: url('/assets/balloons_sky.jpg');
+	background-image: url('/assets/sky.jpg');
 	background-repeat:no-repeat center;
+}
+body.alt {
+	background-image: url('/assets/walk-1500.jpg');
+	background-repeat:no-repeat center;
+}
+.wp-image-background {
+	background: white;
+	opacity: 1;
+	padding: 5px;
+}
+@media screen and(min-width: 1281px) {
+  body.home {
+	background-image: url('/assets/home-1500.png');
+	background-repeat:no-repeat center;
+  }
 }

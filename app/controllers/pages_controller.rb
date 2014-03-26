@@ -19,5 +19,9 @@ class PagesController < ApplicationController
   	@background = 'venue'
   end
   
+  def alt
+  	@background = 'alt'
+  end
+  
   
 end

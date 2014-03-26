@@ -4,4 +4,5 @@ Meghananddan::Application.routes.draw do
   match '/gallery',   to: 'pages#gallery'
   match '/weddingparty',   to: 'pages#weddingparty'
   match '/venue',   to: 'pages#venue'
+  match '/alternate',   to: 'pages#alt'
 end

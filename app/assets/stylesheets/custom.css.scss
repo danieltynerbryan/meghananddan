@@ -256,6 +256,11 @@ body.alt {
 .wp-image-background {
 	background: white;
 	opacity: 1;
+	padding: 2px;
+}
+.wp-image-background-thick {
+	background: white;
+	opacity: 1;
 	padding: 5px;
 }
 @media screen and(min-width: 1281px) {
